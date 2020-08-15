@@ -1,7 +1,9 @@
 /** @format */
 
 import React from 'react';
-import './Navbar.css'
+import './Navbar.css';
+
+// Add scroll function to each section
 
 const Nav = () => {
 	return (
@@ -9,10 +11,10 @@ const Nav = () => {
 			<div className='nav-content'>
 				<ul className='nav-items'>
 					<li className='nav-item'>
-						<a href='#'>Projects</a>
+						<a href='#projects'>Projects</a>
 					</li>
 					<li className='nav-item'>
-						<a href='#'>Contact</a>
+						<a href='#contact'>Contact</a>
 					</li>
 				</ul>
 			</div>
