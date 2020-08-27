@@ -1,0 +1,23 @@
+/** @format */
+
+.contact-container {
+	font-family: 'Courier Prime';
+	color: #c8c5c5;
+	text-align: center;
+}
+
+.contact-item {
+	text-decoration: none;
+}
+
+.contact-item a:link {
+	color: #ff9b00;
+}
+
+.contact-item a:visited {
+	color: #ffe0e0;
+}
+
+.contact-item a:hover {
+	color: #ffffff;
+}
