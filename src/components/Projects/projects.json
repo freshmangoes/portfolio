@@ -1,0 +1,73 @@
+{
+	"data": [
+		{
+			"title": "Moto Weather",
+			"description": "A full, MERN stack, web application with the aim to help motorcycle riders adapt to the changing weather.",
+			"tech": [
+				"NodeJS",
+				"React",
+				"react-map-gl",
+				"Deck.gl",
+				"Mongo/Mongoose",
+				"Express",
+				"Mapbox APIs",
+				"Openweather API"
+			],
+			"link": "https://moto-weather.herokuapp.com/"
+		},
+		{
+			"title": "weekend Warrior",
+			"description": "A tool meant for hikers and campers to look up the conditions and weather, local to a hiking trail.",
+			"tech": [
+				"NodeJS",
+				"Express",
+				"Handlebars",
+				"MySQL/Sequelize",
+				"HikingProject API",
+				"OpenWeather API"
+			],
+			"link": "https://the-weekend-warrior.herokuapp.com/"
+		},
+		{
+			"title": "New York Times Scraper",
+			"description": "A single page, MERN based scraper for the New York Times world page.",
+			"tech": ["Mongo/Mongoose", "Express", "React", "NodeJS", "Bootstrap"],
+			"link": "https://nyt-scraper-kcilia.herokuapp.com/"
+		},
+		{
+			"title": "Brewery Browser",
+			"description": "A simple, single page web application designed to make finding a brewery or alehouse in a target location an easy experience.",
+			"tech": [
+				"HTML",
+				"CSS",
+				"Javascript/jQuery",
+				"Firebase",
+				"Mapbox CDN & APIs",
+				"OpenBreweryDB API"
+			],
+			"link": "https://freshmangoes.github.io/project-1"
+		},
+		{
+			"title": "Trivia! Broken Car Edition",
+			"description": "A trivia game, featuring a theme of a broken car!",
+			"tech": ["HTML", "CSS", "Javascript"],
+			"link": "https://freshmangoes.github.io/TriviaGame/"
+		},
+		{
+			"title": "Hangman - Broken Car Edition!",
+			"description": "A word guess game, featuring a theme of common wear parts on a car.",
+			"tech": ["HTML", "Bootstrap/CSS", "Javascript"]
+		},
+		{
+			"title": "Crystals Collector",
+			"description": "A strategic guessing game, where the player has to reach a goal score to win with the psuedorandom values assigned, but hidden, at the start of the game.",
+			"tech": ["HTML", "Bootstrap/CSS", "Javascript/jQuery"],
+			"link": "https://freshmangoes.github.io/unit-4-game/"
+		},
+		{
+			"title": "Giphy Search",
+			"description": "A Giphy API search client. Features toggling between still image and animated gif, user search buttons, and gif ratings.",
+			"tech": ["HTML", "Bootstrap", "Javascript/jQuery"]
+		}
+	]
+}

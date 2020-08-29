@@ -2,19 +2,32 @@
 
 import React from 'react';
 import Project from './Project/Project';
-import Contact from '../Contact/Contact';
+import projects from './projects.json';
 
 const Projects = () => {
 	return (
 		<div>
-			<Project
+			{/* <Project
 				title='Moto Weather'
 				description='A full, MERN stack, web application with the aim to help motorcycle riders adapt to the changing weather.'
         tech='NodeJS, React, react-map-gl, Deck.gl, Mongo/Mongoose, Express, Mapbox APIs, Openweather API'
         link='https://moto-weather.herokuapp.com/'
-			/>
+			/> */}
 
-			<Project
+			{projects.data.map(e => {
+				return (
+					// console.log(e.title)
+					<Project
+						title={e.title}
+						description={e.description}
+						tech={e.tech}
+						link={e.link}
+						key={e.title}
+					/>
+				)
+			})}
+
+			{/* <Project
 				title='Weekend Warrior'
 				description='A tool meant for hikers and campers to look up the conditions and weather, local to a hiking trail.'
         tech='NodeJS, Express, Handlebars, MySQL/Sequelize, HikingProject API, OpenWeather API'
@@ -61,7 +74,7 @@ const Projects = () => {
 				description='A Giphy API search client. The user can add search buttons and click on them to search the Giphy API. Displays the rating and a still image of the gif, which the user can click to toggle animation.'
         tech='Vanilla HTML, Bootstrap, Javascript/jQuery'
         link='https://freshmangoes.github.io/giphy-search/'
-			/>
+			/> */}
 		</div>
 	);
 };

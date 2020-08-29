@@ -7,11 +7,15 @@ import Contact from './components/Contact/Contact';
 
 function App() {
   return (
+    
     <div className="App">
       <Nav/>
+      <div className='body'>
       <Intro/>
       <Projects/>
       <Contact/>
+
+      </div>
     </div>
   );
 }
