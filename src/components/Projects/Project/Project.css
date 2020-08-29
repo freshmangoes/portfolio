@@ -15,3 +15,19 @@
 .project-technologies{
   /* font-family: 'Courier Prime' */
 }
+
+.project-link{
+  text-decoration: none
+}
+
+.project-link-container a:link {
+  color: #ff9b00;
+}
+
+.project-link-container a:visited {
+	color: #ffe0e0;
+}
+
+.project-link-container a:hover {
+	color: #ffffff;
+}

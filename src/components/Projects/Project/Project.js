@@ -15,7 +15,9 @@ const Project = (props) => {
 					return <span key={e}>{e} </span>;
 				})}
 			</p>
-			<a href={link}>Live Demo</a>
+			<div className='project-link-container'>
+				<a className='project-link' href={link}>Live Demo</a>
+			</div>
 
 			{/* Add image and link to live demo to project */}
 		</div>
