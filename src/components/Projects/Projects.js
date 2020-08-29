@@ -15,6 +15,7 @@ const Projects = () => {
 						description={e.description}
 						tech={e.tech}
 						link={e.link}
+						source={e.source}
 						key={e.title}
 					/>
 				);
