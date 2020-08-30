@@ -14,10 +14,11 @@
 				"Openweather API"
 			],
 			"link": "https://moto-weather.herokuapp.com/",
-			"source":"https://github.com/freshmangoes/riders-on-the-storm-proj3"
+			"source":"https://github.com/freshmangoes/riders-on-the-storm-proj3",
+			"imgSource": "/project_images/moto-weather-ss.png"
 		},
 		{
-			"title": "weekend Warrior",
+			"title": "Weekend Warrior",
 			"description": "A tool meant for hikers and campers to look up the conditions and weather, local to a hiking trail.",
 			"tech": [
 				"NodeJS",
@@ -28,14 +29,16 @@
 				"OpenWeather API"
 			],
 			"link": "https://the-weekend-warrior.herokuapp.com/",
-			"source": "https://github.com/freshmangoes/project-2"
+			"source": "https://github.com/freshmangoes/project-2",
+			"imgSource": "/project_images/weekend-warrior-ss.png"
 		},
 		{
 			"title": "New York Times Scraper",
 			"description": "A single page, MERN based scraper for the New York Times world page.",
 			"tech": ["Mongo/Mongoose", "Express", "React", "NodeJS", "Bootstrap"],
 			"link": "https://nyt-scraper-kcilia.herokuapp.com/",
-			"source": "https://github.com/freshmangoes/react-mongo-scraper"
+			"source": "https://github.com/freshmangoes/react-mongo-scraper",
+			"imgSource": "/project_images/nyt-scraper-ss.png"
 		},
 		{
 			"title": "Brewery Browser",
@@ -49,14 +52,16 @@
 				"OpenBreweryDB API"
 			],
 			"link": "https://freshmangoes.github.io/project-1",
-			"source": "https://github.com/freshmangoes/project-1"
+			"source": "https://github.com/freshmangoes/project-1",
+			"imgSource": "/project_images/brewery-browser-ss.png"
 		},
 		{
 			"title": "Giphy Search",
 			"description": "A Giphy API search client. Features toggling between still image and animated gif, user search buttons, and gif ratings.",
 			"tech": ["HTML", "Bootstrap", "Javascript/jQuery"],
 			"link": "https://freshmangoes.github.io/giphy-search/",
-			"source": "https://github.com/freshmangoes/giphy-search"
+			"source": "https://github.com/freshmangoes/giphy-search",
+			"imgSource": "/project_images/giphy-search-ss.png"
 		}
 	]
 }
