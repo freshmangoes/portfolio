@@ -30,13 +30,13 @@
 }
 
 .project-link-container a:link {
-  color: #ff9b00;
+  color: #8D86C9;
 }
 
 .project-link-container a:visited {
-	color: #ffe0e0;
+	color: #8D86C9;
 }
 
 .project-link-container a:hover {
-	color: #ffffff;
+	color: #99C1B9;
 }
