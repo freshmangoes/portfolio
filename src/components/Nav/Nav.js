@@ -7,18 +7,16 @@ import './Navbar.css';
 
 const Nav = () => {
 	return (
-		<nav className='nav' id='navbar'>
-			<div className='nav-content'>
-				<ul className='nav-items'>
-					<li className='nav-item'>
-						<a href='#projects'>Projects</a>
-					</li>
-					<li className='nav-item'>
-						<a href='#contact'>Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		<div className='navbar-container'>
+			<nav className='navbar' id='navbar'>
+				<a href='#contact'>
+					Contact
+				</a>
+				<a href='#projects'>
+					Projects
+				</a>
+			</nav>
+		</div>
 	);
 };
 
