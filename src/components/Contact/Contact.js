@@ -7,7 +7,7 @@ const Contact = () => {
 	return (
 		<div className='contact-container'>
 			<h3>Contact</h3>
-			<p className='contact-item'>
+			<div className='contact-item'>
 				<a className='contact-item' href='mailto:kylecilia@icloud.com'>
 					Email
 				</a>
@@ -19,7 +19,7 @@ const Contact = () => {
 				<a className='contact-item' href='https://github.com/freshmangoes'>
 					Gitub
 				</a>
-			</p>
+			</div>
 		</div>
 	);
 };
