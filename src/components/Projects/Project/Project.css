@@ -1,6 +1,6 @@
 .project-container {
   font-family: 'Courier Prime';
-  color: #C8C5C5;
+  color: #242038;
   text-align: left;
 }
 
@@ -12,8 +12,17 @@
   /* font-family: 'Courier Prime' */
 }
 
-.project-technologies{
+.project-techs{
   /* font-family: 'Courier Prime' */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-tech {
+  border-radius: 4px;
+  border: 2px solid #8D86C9;
+  padding: 6px;
+  margin: 0 8px 8px 0;
 }
 
 .project-link{

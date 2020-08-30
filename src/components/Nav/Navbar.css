@@ -10,9 +10,9 @@
 .navbar {
 	padding: 1.5em 0 1.5em 0;
 	width: 100%;
-	background-color: #5c5b5b;
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #ccc;
+	background-color: #433e3f;
+	/* border-bottom: 1px solid #ccc; */
+	/* border-top: 1px solid #ccc; */
 }
 
 .navbar a{
@@ -20,8 +20,12 @@
 	margin: 2em;
 	text-decoration: none;
 	font-weight: bold;
-	color: #ccc;
+	color: #8D86C9;
 	/* border-right: 1px solid #ccc; */
+}
+
+.navbar a:hover {
+  color: #99C1B9;
 }
 
 

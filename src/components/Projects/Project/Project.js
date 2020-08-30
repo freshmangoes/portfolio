@@ -9,10 +9,10 @@ const Project = (props) => {
 		<div className='project-container'>
 			<h3 className='project-title'>{title}</h3>
 			<p className='project-description'>{description}</p>
-			<p className='project-technologies'>
+			<p className='project-techs'>
 				{/* tech comes in as an array */}
 				{tech.map((e) => {
-					return <span key={e}>{e} </span>;
+					return <span className='project-tech' key={e}>{e} </span>;
 				})}
 			</p>
 			<div className='project-link-container'>
