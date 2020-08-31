@@ -22,10 +22,10 @@ const Project = (props) => {
 				})}
 			</p>
 			<div className='project-link-container'>
-				<a className='project-link' href={link}>
+				<a className='project-link hvr-bob' href={link}>
 					Live Demo
 				</a>
-				<a className='project-link' href={source}>
+				<a className='project-link hvr-bob' href={source}>
 					Source
 				</a>
 			</div>
