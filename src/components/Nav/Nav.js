@@ -11,7 +11,7 @@ const Nav = () => {
 			<nav className='navbar' id='navbar'>
 				<a className='hvr-float' href='#contact'>About</a>
 				<a className='hvr-float' href='#projects'>Projects</a>
-				<a className='hvr-float' href='#resume'>Resume</a>
+				<a className='hvr-float' href='./assets/Resume.pdf'>Resume</a>
 			</nav>
 		</div>
 	);
