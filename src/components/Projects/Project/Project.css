@@ -1,3 +1,8 @@
+img {
+  max-width: 100%;
+  height: auto; 
+}
+
 .project-container {
   font-family: 'Courier Prime';
   color: #242038;
