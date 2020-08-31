@@ -25,8 +25,6 @@ const Project = (props) => {
 				<a className='project-link' href={link}>
 					Live Demo
 				</a>
-			</div>
-			<div className='project-link-container'>
 				<a className='project-link' href={source}>
 					Source
 				</a>

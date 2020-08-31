@@ -1,6 +1,9 @@
 img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+   
 }
 
 .project-container {
@@ -31,11 +34,21 @@ img {
 }
 
 .project-link{
-  text-decoration: none
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: #C6D2ED;
+  background-color: #C6D2ED;
+  /* background: #61988e; */
+  margin: 0 8px 8px 0;
+  padding: 0.5em;
+
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
 
 .project-link-container a:link {
   color: #8D86C9;
+  /* padding: 0.5em; */
 }
 
 .project-link-container a:visited {

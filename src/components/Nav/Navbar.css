@@ -3,32 +3,28 @@
 .navbar-container {
 	display: flex;
 	justify-content: flex-end;
-	margin: 0 auto;
+	/* margin: 0; */
 	font-family: 'Courier Prime';
+	/* max-width: 100%; */
+	padding: 0;
 }
 
 .navbar {
 	padding: 1.5em 0 1.5em 0;
 	width: 100%;
 	background-color: #433e3f;
-	/* border-bottom: 1px solid #ccc; */
-	/* border-top: 1px solid #ccc; */
+
 }
 
-.navbar a{
+.navbar a {
 	position: relative;
-	margin: 2em;
+	margin: 1.5em;
 	text-decoration: none;
 	font-weight: bold;
-	color: #8D86C9;
-	/* border-right: 1px solid #ccc; */
+	color: #8d86c9;
+
 }
 
 .navbar a:hover {
-  color: #99C1B9;
-}
-
-
-
-@media screen and (max-width: 768px) {
+	color: #99c1b9;
 }

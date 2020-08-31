@@ -9,12 +9,9 @@ const Nav = () => {
 	return (
 		<div className='navbar-container'>
 			<nav className='navbar' id='navbar'>
-				<a href='#contact'>
-					Contact
-				</a>
-				<a href='#projects'>
-					Projects
-				</a>
+				<a href='#contact'>About</a>
+				<a href='#projects'>Projects</a>
+				<a href='#resume'>Resume</a>
 			</nav>
 		</div>
 	);
