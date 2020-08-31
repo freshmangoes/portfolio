@@ -9,9 +9,9 @@ const Nav = () => {
 	return (
 		<div className='navbar-container'>
 			<nav className='navbar' id='navbar'>
-				<a href='#contact'>About</a>
-				<a href='#projects'>Projects</a>
-				<a href='#resume'>Resume</a>
+				<a className='hvr-float' href='#contact'>About</a>
+				<a className='hvr-float' href='#projects'>Projects</a>
+				<a className='hvr-float' href='#resume'>Resume</a>
 			</nav>
 		</div>
 	);
