@@ -1,5 +1,10 @@
 {
-	"data": [
+  "intro": {
+    "name": "Kyle Cilia",
+    "about": "Full stack web developer, based in beautiful Half Moon Bay, CA. Zealous about writing clean, modular code and creating user-friendly and useful applications."
+  },
+
+	"projects": [
 		{
 			"title": "Moto Weather",
 			"description": "A full, MERN stack, web application with the aim to help motorcycle riders adapt to the changing weather.",
@@ -63,5 +68,11 @@
 			"source": "https://github.com/freshmangoes/giphy-search",
 			"imgSource": "/project_images/giphy-search-ss.png"
 		}
-	]
+  ],
+  
+  "contact": {
+    "email": "kylecilia@me.com",
+    "linkedin": "https://linkedin.com/in/kylecilia",
+    "github": "https://github.com/freshmangoes"
+  }
 }

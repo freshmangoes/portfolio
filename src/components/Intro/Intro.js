@@ -2,13 +2,14 @@
 
 import React from 'react';
 import './Intro.css';
+import content from '../../content.json';
 
 const Intro = () => {
 	return (
 		<div className='intro-container'>
-			<h1 className='name-banner'>Kyle Cilia</h1>
+			<h1 className='name-banner'>{content.intro.name}</h1>
 			<p className='about'>
-				Full stack web developer, based in beautiful Half Moon Bay, CA. Zealous about writing clean, modular code and creating user-friendly and useful applications. 
+				{content.intro.about}
 			</p>
 			<p className='about'>Check out my projects below!</p>
 		</div>

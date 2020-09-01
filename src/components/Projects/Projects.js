@@ -2,14 +2,13 @@
 
 import React from 'react';
 import Project from './Project/Project';
-import projects from './projects.json';
+import content from '../../content.json';
 
 const Projects = () => {
 	return (
 		<div>
-			{projects.data.map((e) => {
+			{content.projects.map((e) => {
 				return (
-					// console.log(e.title)
 					<Project
 						title={e.title}
 						description={e.description}
