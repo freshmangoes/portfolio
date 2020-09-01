@@ -1,15 +1,17 @@
+/** @format */
+
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 80px;
-  width: 100%;
-  background: #433e3f;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 80px;
+	width: 100%;
+	background: #433e3f;
 }
 
 .phantom {
-  display: block;
-  padding: 20px;
-  height: 100px;
-  width: 100%;
+	display: block;
+	padding: 20px;
+	height: 100px;
+	width: 100%;
 }

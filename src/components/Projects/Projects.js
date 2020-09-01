@@ -6,7 +6,7 @@ import content from '../../content.json';
 
 const Projects = () => {
 	return (
-		<div>
+		<div id='projects'>
 			{content.projects.map((e) => {
 				return (
 					<Project

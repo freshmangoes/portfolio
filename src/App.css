@@ -1,9 +1,11 @@
+/** @format */
+
 .App {
 }
 
 .body {
-  max-width: 860px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 2em 0 2em;
+	max-width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2em 0 2em;
 }

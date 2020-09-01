@@ -1,8 +1,30 @@
 {
-  "intro": {
-    "name": "Kyle Cilia",
-    "about": "Full stack web developer, based in beautiful Half Moon Bay, CA. Zealous about writing clean, modular code and creating user-friendly and useful applications."
-  },
+	"intro": {
+		"name": "Kyle Cilia",
+    "about": "Full stack web developer. Zealous about writing clean, modular code and creating user-friendly and useful applications.",
+
+    "location": "Half Moon Bay, CA",
+
+    "skills": [
+      "Mongo/Mongoose",
+      "Express",
+      "React",
+      "NodeJS",
+      "Javascript",
+      "HTML/CSS",
+      "MySQL",
+      "git"
+    ],
+  
+    "education": ["B.Sc in Computer Science: Game Design - UC Santa Cruz", "Web Development Certification - UC Berkeley Extension"],
+    
+    "interests": [
+      "Motorcycles",
+      "Camping",
+      "Mountain biking",
+      "Videogames & game design"
+    ]
+	},
 
 	"projects": [
 		{
@@ -19,7 +41,7 @@
 				"Openweather API"
 			],
 			"link": "https://moto-weather.herokuapp.com/",
-			"source":"https://github.com/freshmangoes/riders-on-the-storm-proj3",
+			"source": "https://github.com/freshmangoes/riders-on-the-storm-proj3",
 			"imgSource": "/project_images/moto-weather-ss.png"
 		},
 		{
@@ -68,11 +90,11 @@
 			"source": "https://github.com/freshmangoes/giphy-search",
 			"imgSource": "/project_images/giphy-search-ss.png"
 		}
-  ],
-  
-  "contact": {
-    "email": "kylecilia@me.com",
-    "linkedin": "https://linkedin.com/in/kylecilia",
-    "github": "https://github.com/freshmangoes"
-  }
+	],
+
+	"contact": {
+		"email": "kylecilia@me.com",
+		"linkedin": "https://linkedin.com/in/kylecilia",
+		"github": "https://github.com/freshmangoes"
+	}
 }
