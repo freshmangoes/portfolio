@@ -42,7 +42,7 @@
 			],
 			"link": "https://moto-weather.herokuapp.com/",
 			"source": "https://github.com/freshmangoes/riders-on-the-storm-proj3",
-			"imgSource": "/project_images/moto-weather-ss.png"
+			"imgSource": "./project_images/moto-weather-ss.png"
 		},
 		{
 			"title": "Weekend Warrior",
@@ -57,7 +57,7 @@
 			],
 			"link": "https://the-weekend-warrior.herokuapp.com/",
 			"source": "https://github.com/freshmangoes/project-2",
-			"imgSource": "/project_images/weekend-warrior-ss.png"
+			"imgSource": "./project_images/weekend-warrior-ss.png"
 		},
 		{
 			"title": "New York Times Scraper",
@@ -65,7 +65,7 @@
 			"tech": ["Mongo/Mongoose", "Express", "React", "NodeJS", "Bootstrap"],
 			"link": "https://nyt-scraper-kcilia.herokuapp.com/",
 			"source": "https://github.com/freshmangoes/react-mongo-scraper",
-			"imgSource": "/project_images/nyt-scraper-ss.png"
+			"imgSource": "./project_images/nyt-scraper-ss.png"
 		},
 		{
 			"title": "Brewery Browser",
@@ -80,7 +80,7 @@
 			],
 			"link": "https://freshmangoes.github.io/project-1",
 			"source": "https://github.com/freshmangoes/project-1",
-			"imgSource": "/project_images/brewery-browser-ss.png"
+			"imgSource": "./project_images/brewery-browser-ss.png"
 		},
 		{
 			"title": "Giphy Search",
@@ -88,7 +88,7 @@
 			"tech": ["HTML", "Bootstrap", "Javascript/jQuery"],
 			"link": "https://freshmangoes.github.io/giphy-search/",
 			"source": "https://github.com/freshmangoes/giphy-search",
-			"imgSource": "/project_images/giphy-search-ss.png"
+			"imgSource": "./project_images/giphy-search-ss.png"
 		}
 	],
 
