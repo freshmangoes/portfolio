@@ -2,9 +2,6 @@
 
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import './Navbar.css';
-
-// Add scroll function to each section
 
 const Nav = () => {
 	return (

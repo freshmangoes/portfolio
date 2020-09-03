@@ -1,7 +1,6 @@
 /** @format */
 
 import React from 'react';
-import './Intro.css';
 import content from '../../content.json';
 
 const Intro = () => {
