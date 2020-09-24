@@ -6,7 +6,7 @@ import content from '../../content.json';
 const Contact = () => {
 	return (
 		<div className='contact-container'>
-			<h4>Contact</h4>
+			<h4 className='contact-label'>Contact</h4>
 			<div className='contact-item'>
 				<a
 					className='contact-item hvr-float'

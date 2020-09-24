@@ -7,6 +7,10 @@ const Intro = () => {
 	return (
 		<div className='intro-container' id='intro'>
 			<h1 className='name-banner'>{content.intro.name}</h1>
+			<div>
+				<h4>Who am I?</h4>
+				<p className='about'>{content.intro.bio}</p>
+			</div>
 			<p className='about'>{content.intro.about}</p>
 			<p>Location: {content.intro.location}</p>
 			<p>Skills & proficiencies: {content.intro.skills.join(', ')}</p>
