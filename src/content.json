@@ -7,14 +7,14 @@
 		"location": "Half Moon Bay, CA",
 
 		"skills": [
-			{ "skill": "Mongo/Mongoose", "prof": 75 },
-			{ "skill": "Express", "prof": 80 },
-			{ "skill": "React", "prof": 80 },
-			{ "skill": "NodeJS", "prof": 75 },
-			{ "skill": "Javascript", "prof": 90 },
-			{ "skill": "HTML/CSS", "prof": 90 },
-			{ "skill": "MySQL", "prof": 60 },
-			{ "skill": "git", "prof": 70 }
+			{ "skill": "Mongo/Mongoose", "prof": 60 },
+			{ "skill": "Express", "prof": 65 },
+			{ "skill": "React", "prof": 65 },
+			{ "skill": "NodeJS", "prof": 60 },
+			{ "skill": "Javascript", "prof": 75 },
+			{ "skill": "HTML/CSS", "prof": 75 },
+			{ "skill": "MySQL", "prof": 45 },
+			{ "skill": "git", "prof": 55 }
 		],
 
 		"education": [

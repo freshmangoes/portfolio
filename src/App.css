@@ -24,13 +24,11 @@ img {
 }
 
 .prof-meter {
-	height: 20px;  /* Can be anything */
-	position: relative;
+	height: 10px;  /* Can be anything */
+	position: absolute;
 	background: #555;
-	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px;
 	border-radius: 25px;
-	padding: 10px;
+	margin: 0.25em 0 0 0;
 	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
 }
 /* ----------------------------------- */
