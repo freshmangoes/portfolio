@@ -13,7 +13,20 @@ const Intro = () => {
 			</div>
 			<p className='about'>{content.intro.about}</p>
 			<p>Location: {content.intro.location}</p>
-			<p>Skills & proficiencies: {content.intro.skills.join(', ')}</p>
+			<p>
+				Skills & proficiencies:{' '}
+				{content.intro.skills.map((e) => {
+					const { skill, prof } = e;
+					const widthStyle = {
+						width: `${prof}%`,
+					};
+					return (
+						<div>
+							{skill} <span className='prof-meter' style={widthStyle}></span>
+						</div>
+					);
+				})}
+			</p>
 			<p>Interests: {content.intro.interests.join(', ')}</p>
 			<p className='about'>Check out my projects below!</p>
 		</div>
