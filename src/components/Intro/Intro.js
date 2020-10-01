@@ -13,7 +13,7 @@ const Intro = () => {
 			</div>
 			<p className='about'>{content.intro.about}</p>
 			<p>Location: {content.intro.location}</p>
-			<p>
+			<div className='prof-container'>
 				Skills & proficiencies:{' '}
 				{content.intro.skills.map((e) => {
 					const { skill, prof } = e;
@@ -22,11 +22,14 @@ const Intro = () => {
 					};
 					return (
 						<div>
-							{skill} <span className='prof-meter' style={widthStyle}></span>
+							<span className='prof-label'>
+								<label className=''>{skill}</label>
+							</span>
+							<span className='prof-meter' style={widthStyle}></span>
 						</div>
 					);
 				})}
-			</p>
+			</div>
 			<p>Interests: {content.intro.interests.join(', ')}</p>
 			<p className='about'>Check out my projects below!</p>
 		</div>

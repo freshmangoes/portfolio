@@ -10,9 +10,9 @@
 			{ "skill": "Mongo/Mongoose", "prof": 60 },
 			{ "skill": "Express", "prof": 65 },
 			{ "skill": "React", "prof": 65 },
-			{ "skill": "NodeJS", "prof": 60 },
-			{ "skill": "Javascript", "prof": 75 },
-			{ "skill": "HTML/CSS", "prof": 75 },
+			{ "skill": "NodeJS", "prof": 65 },
+			{ "skill": "Javascript", "prof": 70 },
+			{ "skill": "HTML/CSS", "prof": 65 },
 			{ "skill": "MySQL", "prof": 45 },
 			{ "skill": "git", "prof": 55 }
 		],
