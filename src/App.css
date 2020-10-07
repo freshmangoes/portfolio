@@ -24,22 +24,19 @@ img {
 }
 
 .prof-container {
-	/* display: flex; */
-	/* flex-direction: row; */
 }
 
 .prof-label {
-	float: left;
 }
 
 .prof-meter {
 	float: right;
-	height: 10px; 
+	height: 10px;
 	position: absolute;
 	background: #555;
 	border-radius: 25px;
 	margin: 0.25em 0 0 1em;
-	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 }
 /* ----------------------------------- */
 

@@ -11,24 +11,20 @@ const Intro = () => {
 				<h4>Who am I?</h4>
 				<p className='about'>{content.intro.bio}</p>
 			</div>
-			<p className='about'>{content.intro.about}</p>
+			<div>
+				<h4>What am I?</h4>
+				<p className='about'>{content.intro.about}</p>
+			</div>
 			<p>Location: {content.intro.location}</p>
 			<div className='prof-container'>
 				Skills & proficiencies:{' '}
-				{content.intro.skills.map((e) => {
-					const { skill, prof } = e;
-					const widthStyle = {
-						width: `${prof}%`,
-					};
-					return (
-						<div>
-							<span className='prof-label'>
-								<label className=''>{skill}</label>
-							</span>
-							<span className='prof-meter' style={widthStyle}></span>
-						</div>
-					);
-				})}
+				<ul>
+					{content.intro.skills.map((e) => {
+						const { skill, prof } = e;
+						return <li className='prof-label'>{skill}</li>;
+					})}
+
+				</ul>
 			</div>
 			<p>Interests: {content.intro.interests.join(', ')}</p>
 			<p className='about'>Check out my projects below!</p>
