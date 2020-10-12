@@ -24,22 +24,21 @@ img {
 }
 
 .prof-container {
-	/* display: flex; */
-	/* flex-direction: row; */
+	display: flex;
+	justify-content: space-between;
 }
 
 .prof-label {
-	float: left;
 }
 
 .prof-meter {
-	float: right;
-	height: 10px; 
-	position: absolute;
+	/* float: right; */
+	/* position: absolute; */
+	height: 10px;
 	background: #555;
 	border-radius: 25px;
 	margin: 0.25em 0 0 1em;
-	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 }
 /* ----------------------------------- */
 

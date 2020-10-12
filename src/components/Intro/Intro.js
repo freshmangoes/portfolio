@@ -13,7 +13,7 @@ const Intro = () => {
 			</div>
 			<p className='about'>{content.intro.about}</p>
 			<p>Location: {content.intro.location}</p>
-			<div className='prof-container'>
+			<div>
 				Skills & proficiencies:{' '}
 				{content.intro.skills.map((e) => {
 					const { skill, prof } = e;
@@ -21,7 +21,7 @@ const Intro = () => {
 						width: `${prof}%`,
 					};
 					return (
-						<div>
+						<div className='prof-container'>
 							<span className='prof-label'>
 								<label className=''>{skill}</label>
 							</span>
