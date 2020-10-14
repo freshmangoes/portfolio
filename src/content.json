@@ -1,16 +1,17 @@
 {
 	"intro": {
 		"name": "Kyle Cilia",
-		"bio": "Born and raised on the beautiful coastline of Half Moon Bay, CA, I initially intended to become a video game programmer. I moved down to Santa Cruz, received a B.S. in Computer Science: Game Design, and then realized I enjoyed web programming more. Code interests aside, I am a thoroughbred gearhead and enjoy tinkering with cars and motorcycles alike, as well as small gas engines (generators, chainsaws, things people usually don't like to work on). I also enjoy backpacking and camping, videogames, hiking with my pups, and amateur motorsports.",
-		"about": "Full stack web developer, constantly learning and exploring new web technologies and other code related topics. Currently highly interested in React. Zealous about writing clean, modular code and creating user-friendly and useful applications.",
+		"bio": "Born and raised on the beautiful coastline of Half Moon Bay, CA, I initially intended to become a video game programmer. I moved down to Santa Cruz, received a B.S. in Computer Science: Game Design, and then realized I enjoyed web programming more. Code interests aside, I am a thoroughbred gearhead and enjoy tinkering with cars and motorcycles alike, as well as small gas engines (generators, chainsaws, things people usually don't like to work on). I also enjoy backpacking and camping, videogames, and game design theory.",
+		"about": "Full stack web developer, constantly learning new web technologies and other code related topics. Currently highly interested in React. Zealous about writing clean, modular code and creating user-friendly and useful applications.",
+
 
 		"location": "Half Moon Bay, CA",
 
 		"skills": [
 			{ "skill": "Mongo/Mongoose", "prof": 60 },
-			{ "skill": "Express", "prof": 65 },
+			{ "skill": "Express", "prof": 55 },
 			{ "skill": "React", "prof": 65 },
-			{ "skill": "NodeJS", "prof": 65 },
+			{ "skill": "NodeJS", "prof": 50 },
 			{ "skill": "Javascript", "prof": 70 },
 			{ "skill": "HTML/CSS", "prof": 65 },
 			{ "skill": "MySQL", "prof": 45 },
