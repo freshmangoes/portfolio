@@ -26,6 +26,7 @@ img {
 .prof-container {
 	display: flex;
 	justify-content: space-between;
+
 }
 
 .prof-label {
