@@ -34,8 +34,8 @@ const Intro = () => {
 				})}
 
 			</div>
-			<p>Interests: {content.intro.interests.join(', ')}</p>
-			<p className='about'>Check out my projects below!</p>
+			{/* <p>Interests: {content.intro.interests.join(', ')}</p> */}
+			<h4 className='about'>Check out my projects below!</h4>
 		</div>
 	);
 };
