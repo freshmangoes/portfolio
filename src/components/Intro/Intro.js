@@ -20,15 +20,15 @@ const Intro = () => {
 				Skills & proficiencies:{' '}
 				{content.intro.skills.map((e) => {
 					const { skill, prof } = e;
-					const widthStyle = {
-						width: `${prof}%`,
-					};
+					// const widthStyle = {
+					// 	width: `${prof}%`,
+					// };
 					return (
 						<div className='prof-container'>
 							<span className='prof-label'>
 								<label className=''>{skill}</label>
 							</span>
-							<span className='prof-meter' style={widthStyle}></span>
+							{/* <span className='prof-meter' style={widthStyle}></span> */}
 						</div>
 					);
 				})}
