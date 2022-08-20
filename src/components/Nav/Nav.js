@@ -9,11 +9,11 @@ const Nav = () => {
 			<nav className='navbar' id='navbar'>
 				<div className='hvr-float'>
 					{/* <a href='#intro'>About</a> */}
-					<AnchorLink href='#intro'>About</AnchorLink>
+					<AnchorLink offset='100' href='#intro'>About</AnchorLink>
 				</div>
 				<div className='hvr-float'>
 					{/* <a href='#projects'>Projects</a> */}
-					<AnchorLink href='#projects'>Projects</AnchorLink>
+					<AnchorLink offset='70' href='#projects'>Projects</AnchorLink>
 				</div>
 				<div className='hvr-float'>
 					<a href='./assets/Resume.pdf'>Resume</a>
