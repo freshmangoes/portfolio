@@ -16,6 +16,7 @@ const Projects = () => {
 						link={e.link}
 						source={e.source}
 						imgSource={e.imgSource}
+						deprecated={e.deprecated? true:false}
 						key={e.title}
 					/>
 				);

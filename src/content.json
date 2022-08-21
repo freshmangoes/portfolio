@@ -62,7 +62,8 @@
 			],
 			"link": "https://the-weekend-warrior.herokuapp.com/",
 			"source": "https://github.com/freshmangoes/weekend-warrior",
-			"imgSource": "./project_images/weekend-warrior-ss.png"
+			"imgSource": "./project_images/weekend-warrior-ss.png",
+			"deprecated": true
 		},
 		{
 			"title": "New York Times Scraper",

@@ -112,6 +112,11 @@ img {
 
 /* PROJECT */
 /* ----------------------------------- */
+
+.strike {
+	text-decoration: line-through;
+}
+
 .project-container {
 	font-family: 'Courier Prime';
 	color: #242038;
