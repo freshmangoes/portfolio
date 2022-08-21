@@ -45,7 +45,7 @@
 				"Mapbox APIs",
 				"Openweather API"
 			],
-			"link": "https://moto-weather.herokuapp.com/",
+			"link": "https://motoweather.herokuapp.com/",
 			"source": "https://github.com/freshmangoes/riders-on-the-storm-proj3",
 			"imgSource": "./project_images/moto-weather-ss.png"
 		},
