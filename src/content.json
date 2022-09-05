@@ -14,7 +14,8 @@
 			{ "skill": "Javascript", "prof": 70 },
 			{ "skill": "HTML/CSS", "prof": 65 },
 			{ "skill": "MySQL", "prof": 45 },
-			{ "skill": "git", "prof": 55 }
+			{ "skill": "git", "prof": 55 },
+			{"skill": "Docker"}
 		],
 
 		"education": [
