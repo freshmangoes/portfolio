@@ -4,7 +4,7 @@ img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 6px;
-	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+	box-shadow: 10px 10px 10px rgba(50, 50, 93, 0.20), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .body {
