@@ -45,16 +45,16 @@
 				"Mapbox APIs",
 				"Openweather API"
 			],
-			"link": "https://motoweather.herokuapp.com/",
-			"source": "https://github.com/freshmangoes/riders-on-the-storm-proj3",
+			"link": "https://bit.ly/nytscr-app",
+			"source": "https://bit.ly/mw-git",
 			"imgSource": "./project_images/moto-weather-ss.png"
 		},
 		{
 			"title": "New York Times Scraper",
 			"description": "A single page, MERN based scraper for the New York Times world page.",
 			"tech": ["Mongo/Mongoose", "Express", "React", "NodeJS", "Bootstrap"],
-			"link": "https://nyt-scraper-kcilia.herokuapp.com/",
-			"source": "https://github.com/freshmangoes/react-mongo-scraper",
+			"link": "https://bit.ly/nytscr-app",
+			"source": "https://bit.ly/nytsc-git",
 			"imgSource": "./project_images/nyt-scraper-ss.png"
 		},
 		{
@@ -68,8 +68,8 @@
 				"Mapbox CDN & APIs",
 				"OpenBreweryDB API"
 			],
-			"link": "https://freshmangoes.github.io/brewery-browser/",
-			"source": "https://github.com/freshmangoes/brewery-browser",
+			"link": "https://bit.ly/bb-webapp",
+			"source": "https://bit.ly/bb-git",
 			"imgSource": "./project_images/brewery-browser-ss.png"
 		},
 		{
@@ -91,8 +91,8 @@
 				"HikingProject API",
 				"OpenWeather API"
 			],
-			"link": "https://the-weekend-warrior.herokuapp.com/",
-			"source": "https://github.com/freshmangoes/weekend-warrior",
+			"link": "https://bit.ly/ww-webapp",
+			"source": "œhttps://bit.ly/wkw-git",
 			"imgSource": "./project_images/weekend-warrior-ss.png",
 			"deprecated": true
 		}
@@ -100,7 +100,7 @@
 
 	"contact": {
 		"email": "kylecilia@me.com",
-		"linkedin": "https://linkedin.com/in/kylecilia",
-		"github": "https://github.com/freshmangoes"
+		"linkedin": "https://bit.ly/kylec-linkedin",
+		"github": "https://bit.ly/kylec-github"
 	}
 }
