@@ -1,8 +1,7 @@
 {
 	"intro": {
 		"name": "Kyle Cilia",
-		"bio":"Hi! My name is Kyle, I'm a full stack developer based in coastal Half Moon Bay. I enjoy all aspects of web design from writing APIs to fine tuning front end for a fluid and natural feel. Passionate about writing clean, modular code. I am perpetually learning and trying to improve my craft.",
-
+		"bio": "Hi! My name is Kyle. I enjoy building web applications and IT projects. Hardware enthusiast and passionate about clean, modular code. Perpetually learning and improving my crafts.",
 
 		"location": "Half Moon Bay, CA",
 
@@ -15,7 +14,8 @@
 			{ "skill": "HTML/CSS", "prof": 65 },
 			{ "skill": "MySQL", "prof": 45 },
 			{ "skill": "git", "prof": 55 },
-			{"skill": "Docker"}
+			{ "skill": "Docker" },
+			{ "skill": "DD-WRT/Tomato" }
 		],
 
 		"education": [
