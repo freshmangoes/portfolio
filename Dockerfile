@@ -5,7 +5,7 @@ WORKDIR /app
 # Copy app dependencies
 COPY package*.json /app/
 # ===== Build =====
-RUN npm i
+RUN npm install
 COPY ./ /app/
 # ===== Run =====
 RUN npm run build
