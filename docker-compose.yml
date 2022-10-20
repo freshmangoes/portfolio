@@ -1,6 +1,6 @@
 version: '3'
 services:
-  frontend:
+  portfolio:
     container_name: portfolio
     build:
       context: .
@@ -10,4 +10,4 @@ services:
     ports:
       - 3000:3000
     stdin_open: true
-    command: npm
+    command: npx serve build
