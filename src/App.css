@@ -42,6 +42,23 @@ img {
 }
 /* ----------------------------------- */
 
+/* TEXT GENERAL */
+/* ----------------------------------- */
+.text {
+	color: #E8E9EB;
+}
+
+.proj-title {
+	color: #06A77D;
+}
+
+.name-text {
+	color: #06A77D;
+}
+
+
+/* ----------------------------------- */
+
 /* CONTACT */
 /* ----------------------------------- */
 .contact-container {
@@ -140,8 +157,8 @@ img {
 	text-decoration: none;
 	border: 2px solid;
 	border-radius: 6px;
-	border-color: #c6d2ed;
-	background-color: #c6d2ed;
+	border-color: #8d86c9;
+	background-color: #313638;
 	/* background: #61988e; */
 	margin: 0 8px 8px 0;
 	padding: 0.5em;
@@ -151,12 +168,12 @@ img {
 }
 
 .project-link-container a:link {
-	color: #8d86c9;
+	color: #F0803C;
 	/* padding: 0.5em; */
 }
 
 .project-link-container a:visited {
-	color: #8d86c9;
+	color: #9E788F;
 }
 /* ----------------------------------- */
 

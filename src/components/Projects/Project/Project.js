@@ -6,18 +6,18 @@ const Project = (props) => {
 	const { title, description, tech, link, source, imgSource, deprecated } = props;
 	return (
 		<div className='project-container'>
-			<h3 className={deprecated? `strike`:``}>
+			<h3 className={deprecated? `strike proj-title`:`proj-title`}>
 				{title} 
 				{deprecated? ` - Deprecated`:``}
 			</h3>
-			<p className={deprecated? `strike`:``}>{description}</p>
+			<p className={deprecated? `strike text`:`text`}>{description}</p>
 			{deprecated?
-				<p>
+				<p className='text'>
 					Unfortunately one of the technologies or APIs I used in this project is discontinued, and it will not function as it should :(
 				</p> : ''
 			}
 			<img src={`${imgSource}`} alt={title} />
-			<p className='project-techs'>
+			<p className='project-techs text'>
 				{/* tech comes in as an array */}
 				{tech.map((e) => {
 					return (

@@ -6,13 +6,13 @@ import content from '../../content.json';
 const Intro = () => {
 	return (
 		<div className='intro-container' id='intro'>
-			<h1 className='name-banner'>{content.intro.name}</h1>
+			<h1 className='name-banner name-text'>{content.intro.name}</h1>
 			<div>
-				<h4>About</h4>
-				<p className='about'>{content.intro.bio}</p>
+				<h4 className='text'>About</h4>
+				<p className='about text'>{content.intro.bio}</p>
 			</div>
-			<p>Location: {content.intro.location}</p>
-			<div>
+			<p className='text'>Location: {content.intro.location}</p>
+			<div className='text'>
 				Skills & proficiencies:{' '}
 				{content.intro.skills.map((e) => {
 					const { skill, prof } = e;
@@ -26,7 +26,7 @@ const Intro = () => {
 				})}
 
 			</div>
-			<h4 className='about'>Check out my projects below!</h4>
+			<h4 className='about text'>Check out my projects below!</h4>
 		</div>
 	);
 };
